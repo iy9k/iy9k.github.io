@@ -1,0 +1,51 @@
+.h1 {
+    color: #0099ff;
+    background-color: #35393e;
+    font-style: italic;
+    text-align: center;
+    border-width: 4px;
+    border-color: limegreen;
+    border-style: dashed;
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.h2 {
+    color: #0099ff;
+    background-color: #35393e;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.Carleton-Photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.vidoes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits {
+    font-size: 26px;
+    border-width: 1px;
+    border-color: cyan;
+    border-style: dashed;
+    box-shadow: 0 1px 2px rgba(34, 34, 34, 0.2);
+}
+
+.credits {
+    color: limegreen;
+    background-color: darkgreen;
+}
+
+body {
+    color: white;
+    background-color: #35393e;
+}
