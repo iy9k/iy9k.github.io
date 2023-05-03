@@ -52,4 +52,9 @@ body {
 
 a {
     color: aqua;
+
+}
+
+a:hover {
+    color: lightseagreen;
 }
