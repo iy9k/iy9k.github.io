@@ -58,3 +58,15 @@ a {
 a:hover {
     color: lightseagreen;
 }
+
+/* testing comments */
+
+.h1:hover {
+    background-color: darkgreen;
+    box-shadow: 6px 10px 8px 2px rgba(255, 255, 255, 0.164);
+
+}
+
+.h1 {
+    transition: 0.3s;
+}
