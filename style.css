@@ -74,24 +74,57 @@ a:hover {
     transition: 0.3s;
 }
 
+.myForm {
+    border-width: 4px;
+    border-color: limegreen;
+    border-style: dashed;
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+
+}
+
+.userdetails {
+    color: #0099ff;
+}
+
+.navigation {
+    border-width: 4px;
+    border-color: limegreen;
+    border-style: dashed;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.home {
+    padding: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+}
+
 @keyframes bg-color-animation {
-    0% {
+    /* 0% {
         background-color: #35393e;
     }
 
+    
     25% {
         background-color: #919caa;
     }
 
+    
     50% {
         background-color: #cad7e7;
     }
 
+    
     75% {
         background-color: #919caa;
     }
 
     100% {
         background-color: #35393e;
-    }
+    } */
 }

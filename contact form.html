@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"> <br>
+    <title>Contact me</title>
+</head>
+
+<nav class="navigation">
+    <a href="index.html" class="home">Home page</a>
+    <a href="contact form.html" class="home">Contact me</a>
+</nav>
+
+<h3 class="userdetails">User Details Form</h3>
+<form class="myForm" id="formMy">
+    <label for="name"> Name </label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="email"> Email </label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="birthday"> Birthday </label>
+    <input type="date" name="birthday" id="birthday">
+    <br><br>
+
+    <input type="submit" value="Submit this form and add iy9k#5854 on discord">
+</form>
+
+<script>
+
+
+    document.getElementById("formMy").addEventListener("submit", handleFormSubmit)
+
+    function handleFormSubmit(event) {
+        event.preventDefault()
+
+        var name = document.getElementById("name").value
+        var email = document.getElementById("email").value
+        var birthday = document.getElementById("birthday").value
+
+        console.log(name)
+        console.log(email)
+        console.log(birthday)
+    }
+
+</script>
+
+</html>
