@@ -49,3 +49,7 @@ body {
     color: white;
     background-color: #35393e;
 }
+
+a {
+    color: aqua;
+}
