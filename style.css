@@ -105,8 +105,26 @@ a:hover {
 
 }
 
+.navigation a:hover {
+    background-color: lightseagreen;
+    color: aqua;
+}
+
+.navigation a:active {
+    background-color: #04aa6d;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+nav a i {
+    margin-right: 6px;
+}
+
 .home {
     padding: 14px;
+    margin: 4px;
     border-width: 2px;
     border-style: solid;
     border-color: aqua;
@@ -140,7 +158,9 @@ input {
 }
 
 .bodyz {
-    background-image: linear-gradient(to bottom right, lightblue, #0099ff, cyan);
+    background: linear-gradient(-45deg, rgb(64, 224, 149), #00ffea, rgb(0, 255, 157));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     color: black;
 }
 
@@ -156,6 +176,10 @@ input {
     margin-left: auto;
     margin-right: auto;
     width: auto;
+}
+
+.footerr {
+    margin-top: 1000px;
 }
 
 @keyframes bg-color-animation {
@@ -181,4 +205,18 @@ input {
     100% {
         background-color: #35393e;
     } */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
