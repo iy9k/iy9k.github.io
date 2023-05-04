@@ -10,6 +10,7 @@
     margin: auto;
     width: 40%;
     padding: 10px;
+    margin-top: 60px;
 }
 
 .h2 {
@@ -82,11 +83,11 @@ a:hover {
     margin: auto;
     width: 40%;
     padding: 10px;
-
 }
 
 .userdetails {
     color: #0099ff;
+    margin-top: 80px;
 }
 
 .navigation {
@@ -95,6 +96,13 @@ a:hover {
     border-style: dashed;
     border-radius: 4px;
     padding: 20px;
+    margin-bottom: 8px;
+    position: fixed;
+    width: 90%;
+    background-color: black;
+    margin-top: -26px;
+    margin-left: 10px;
+
 }
 
 .home {
@@ -102,6 +110,52 @@ a:hover {
     border-width: 2px;
     border-style: solid;
     border-color: aqua;
+}
+
+input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 6px;
+}
+
+::placeholder {
+    color: red;
+}
+
+.submitt {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #04aa6d;
+    color: white;
+
+}
+
+.stories-section {
+    text-align: center;
+    color: #0099ff;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.bodyz {
+    background-image: linear-gradient(to bottom right, limegreen, cyan, #0099ff);
+    color: black;
+}
+
+.sourcee {
+    text-align: center;
+    color: #0099ff;
+    margin-bottom: 20px;
+    /* margin-top: 80px; */
+}
+
+.islamic-bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 @keyframes bg-color-animation {
