@@ -178,6 +178,18 @@ input {
     width: auto;
 }
 
+.genTitle {
+    margin-top: 60px;
+}
+
+#jokeGen {
+    border: solid 3px magenta;
+    padding: 10px;
+    margin: 20px 0px;
+    width: fit-content;
+    font-style: oblique;
+}
+
 .footerr {
     margin-top: 1000px;
 }
