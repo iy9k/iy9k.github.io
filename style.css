@@ -140,7 +140,7 @@ input {
 }
 
 .bodyz {
-    background-image: linear-gradient(to bottom right, limegreen, cyan, #0099ff);
+    background-image: linear-gradient(to bottom right, lightblue, #0099ff, cyan);
     color: black;
 }
 
