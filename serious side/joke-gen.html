@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"> <br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Joke gen</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="home"> <i class="fa fa-home"></i>Home page</a>
+        <a href="contact form.html" class="home"> <i class="fa fa-phone-square"></i>Contact me</a>
+        <a href="stories.html" class="home">Stories</a>
+        <a href="joke-gen.html" class="home active">Garbage Joke Generator</a>
+    </nav>
+
+
+    <h1 class="genTitle">Joke Generator</h1>
+    <div id="jokeGen" class="JokeSection">
+        Joke appear here
+    </div>
+
+    <button id="btnn" class="genJoke" onclick="generateJoke()">Generate a Joke</button>
+
+    <script>
+        var jokesArray = [
+            "Why is 10 scared of 7? Because 7 ate 9",
+            "Why did the chicken walk across the road? Because chickens cant fly across the road",
+            "If you have a severe case of Covid 19, then urine trouble",
+            "What did the cow say to the chicken? I am mooing my way to cross the road",
+            "What did the joker say to the kid down the road? Do you want a balloon?",
+            "If Elon Musk became the president of Madagascar, he'd rename the country to Madaelectriccar",
+            "Astronomers got tired of watching the Earth for 24 hours. They decided to call it a day.",
+            "I have an italian friend. He keeps telling me that he will pasta away but I do not understand what he meant. He died the next day.",
+        ]
+
+        function generateJoke() {
+            var randomNumber = Math.random() * 7;
+            var randomInteger = Math.floor(randomNumber);
+            var randomJoke = jokesArray[randomInteger];
+            document.getElementById("jokeGen").innerHTML = randomJoke;
+            document.getElementById("btnn").innerHTML = "Generate a New Joke";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
